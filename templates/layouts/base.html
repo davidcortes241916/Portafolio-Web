@@ -8,6 +8,8 @@
     <title>{% block titulo%}{% endblock%}</title>
 </head>
 <body>
+    {% include '../partials/menu.html' %}
+
     <main>
         {%block contenido %}{% endblock %}
     </main>
