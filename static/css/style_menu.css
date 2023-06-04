@@ -1,0 +1,9 @@
+.style-icon-nav{
+    color: blue;
+}
+
+.style-icon{
+
+}
+
+@media(min-width: 1200px){} /*aun no, al final se realizan todos los media*/
