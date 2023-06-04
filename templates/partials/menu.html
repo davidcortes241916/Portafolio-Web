@@ -1,16 +1,12 @@
+{% load static %}
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static '/css/style_menu.css' %}">
 </head>
 
-<i class="fa fa-navicon">
-    <ul>
-        <i><li>Inicio</li></i>
-        <i><li>Proyectos</li></i>
-        <i><li>Contactos</li></i>
-    </ul>
-</i>
-
-<ion-icon name="heart"></ion-icon>
-
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<i class="fa fa-navicon style-icon-nav"></i>
+<ul>
+    <i class="fa fa-id-card-o style-icon"></i><li>Perfil</li>
+    <i class="fa fa-folder-o style-icon"></i><li>Proyectos</li>
+    <i class="fa fa-envelope-o style-icon"></i><li>Contactame</li>
+</ul>
