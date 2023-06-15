@@ -1,0 +1,13 @@
+.style-icon-nav{
+    color: rgb(19, 154, 39);
+}
+
+.style-icon-nav:hover{
+    color: rgb(12, 99, 25);
+}
+
+.style-icon{
+
+}
+
+@media(min-width: 1200px){} /*aun no, al final se realizan todos los media*/
