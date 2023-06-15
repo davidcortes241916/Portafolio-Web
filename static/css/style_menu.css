@@ -2,6 +2,10 @@
     color: blue;
 }
 
+.style-icon-nav:hover{
+    cursor: hand;
+}
+
 .style-icon{
 
 }
